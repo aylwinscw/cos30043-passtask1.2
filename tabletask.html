@@ -9,38 +9,38 @@
 </head>
 <body>
     <h1>WAI Table Example</h1>
-    <p>Most common computer crime and security breaches, 2003-06 (percent)</p>
+    <caption>Most common computer crime and security breaches, 2003-06 (percent)</caption>
     <table>
         <tr>
-            <td>Crime</td>
-            <td>2003</td>
-            <td>2004</td>
-            <td>2005</td>
-            <td>2006</td>
+            <th scope="col" id="crime">Crime</th>
+            <th scope="col" id="2003">2003</th>
+            <th scope="col" id="2004">2004</th>
+            <th scope="col" id="2005">2005</th>
+            <th scope="col" id="2006">2006</th>
         </tr>
 
         <tr>
-            <td>Virus Infection</td>
-            <td>80</td>
-            <td>90</td>
-            <td>64</td>
-            <td>66</td>
+            <th scope="row" headers="crime">Virus Infection</th>
+            <td headers="2003">80</td>
+            <td headers="2004">90</td>
+            <td headers="2005">64</td>
+            <td headers="2006">66</td>
         </tr>
 
         <tr>
-            <td>Laptop Theft</td>
-            <td>55</td>
-            <td>59</td>
-            <td>55</td>
-            <td>59</td>
+            <th scope="row" headers="crime">Laptop Theft</th>
+            <td headers="2003">55</td>
+            <td headers="2004">59</td>
+            <td headers="2005">55</td>
+            <td headers="2006">59</td>
         </tr>
 
         <tr>
-            <td>System Abuse</td>
-            <td>25</td>
-            <td>25</td>
-            <td>28</td>
-            <td>30</td>
+            <th scope="row" headers="crime">System Abuse</th>
+            <td headers="2003">25</td>
+            <td headers="2004">25</td>
+            <td headers="2005">28</td>
+            <td headers="2006">30</td>
         </tr>
     </table>
 </body>
